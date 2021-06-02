@@ -1,0 +1,67 @@
+title {
+	font-family: 'Jura';
+	font-size:20pt;
+	color: #333;
+}
+body {
+  background-image: url('images/Warehouse_background.jpg');
+}
+
+header {
+	font-family: 'Jura';
+	color: #FFFFFF;
+	background-color: rgb(70, 100, 150);
+	width: 100%
+}
+
+ul {
+	display: flex; 
+	justify-content: space-around; 
+	font-family: 'Jura';
+	
+	}
+	img {
+		border: 5px solid #000;
+	}
+	a {
+  background-color: rgb(70, 100, 150);
+  color: white;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+
+	p {
+		background-color: rgb(70, 100, 150);
+		font-family: 'Jura';
+		text-align:center ;
+		font-size:18pt;
+		color: #FFFFFF;
+		border: 5px solid #999;
+		width: 50%;
+	}
+ol {
+	background-color: rgb(70, 100, 150);
+	font-family: 'Jura';
+	text-align:left ;
+	font-size:18pt;
+	color: #FFFFFF;
+	border: 5px solid #999;
+	width: 50%;
+ }
+li {
+	list-style-type: none;
+	font-family: 'Jura';
+	text-align:left ;
+	font-size:18pt;
+	color: #FFFFFF;
+}
+footer {
+	
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background: rgb(70, 100, 150);
+    color: #fff; 
+   
+   }
+

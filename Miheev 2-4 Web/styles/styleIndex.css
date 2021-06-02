@@ -1,0 +1,49 @@
+ 
+title {
+	font-family: 'Jura';
+	font-size:20pt;
+	color: #333;
+}
+body {
+  background-image: url('images/Warehouse_background.jpg');
+}
+
+header {
+	font-family: 'Jura';
+	color: #FFFFFF;
+	background-color: rgb(70, 100, 150);
+	width: 100%
+}
+
+ul {
+	display: flex; 
+	justify-content: space-around; 
+	font-family: 'Jura';
+	
+	}
+	a {
+  background-color: rgb(70, 100, 150);
+  color: white;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+input {
+		
+}
+	p {
+		background-color: rgb(70, 100, 150);
+		font-family: 'Jura';
+		font-size:18pt;
+		color: #FFFFFF;
+		border: 5px solid #999;
+		width: 70%;
+	}
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: rgb(70, 100, 150); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+
